@@ -46,6 +46,7 @@ jobs:
           cpu: 1
           memory: 2
           runtime: NODEJS_12 #FIXME - not used but currently required.
+          port: 8081
           wait-for-service-stability: true
 
       - name: App Runner output
